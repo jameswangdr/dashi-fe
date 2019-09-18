@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:400,700&display=swap');
+
+:root {
+    --dark: rgb(53,243,125);
+    --main: rgb(101, 246, 156);
+    --alt: rgb(101, 246, 155);
+    --light: rgb(245,254,248);
+    --darkgray: rgb(115, 130, 144);
+    --gray: rgb(230, 236, 240);
+    --lightgray: rgb(245, 248, 250);
+    --font: 'Helvetica Neue','Gothic A1', sans-serif;
+  }
+
+* {
+    font-family: var(--font);
+    box-sizing: border-box;
+}
+
+html, body {
+  padding:0;
+  margin:0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  overflow: auto;
+}
